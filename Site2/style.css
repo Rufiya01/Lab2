@@ -1,0 +1,86 @@
+* {
+    margin: 0 auto;
+}
+
+.header h1 {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 95.3%;
+    background: rgb(250, 255, 209);
+    background: linear-gradient(45deg, rgb(163, 255, 208, 1) 0%, rgb(250, 255, 209, 1) 35%, rgb(98, 229, 255) 100%);
+}
+
+.left {
+    width: 17%;
+    border: 2px solid black;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    background: rgb(250, 255, 209);
+    background: linear-gradient(45deg, rgb(163, 255, 208, 1) 0%, rgb(250, 255, 209, 1) 35%, rgb(98, 229, 255) 100%);
+}
+
+.left ul{
+    list-style-type: none;
+    justify-content: space-between;
+    padding-top: 20%;
+}
+
+.middle {
+    width: 50%;
+    background: rgb(250, 255, 209);
+    background: linear-gradient(45deg, rgb(163, 255, 208, 1) 0%, rgb(250, 255, 209, 1) 35%, rgb(98, 229, 255) 100%);
+    float: left;
+    height: 500px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.right {
+    width: 29.5%;
+    background: rgb(250, 255, 209);
+    background: linear-gradient(45deg, rgb(163, 255, 208, 1) 0%, rgb(250, 255, 209, 1) 90%, rgb(98, 229, 255) 100%);
+    float: left;
+    height: 500px;
+    border: 2px solid black;
+}
+
+
+h1 {
+    padding: 10px;
+}
+
+.middle pre, p {
+    font-size: large;
+}
+
+.banner {
+    height: 100px;
+    background: rgb(190, 147, 197);
+    background: linear-gradient(45deg, rgb(190, 147, 197, 1) 0%, rgb(123, 198, 204, 1) 35%, rgb(98, 229, 255) 100%);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+    border: 2px solid rgb(63, 57, 88);
+}
+
+.high {
+    height: 335px;
+    background: rgb(190, 147, 197);
+    background: linear-gradient(45deg, rgb(190, 147, 197, 1) 0%, rgb(123, 198, 204, 1) 35%, rgb(98, 229, 255) 100%);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+    border: 2px solid rgb(63, 57, 88);
+}
+
+.banner p {
+    color: rgb(99, 99, 99);
+}
+
+.high p {
+    color: rgb(99, 99, 99);
+}

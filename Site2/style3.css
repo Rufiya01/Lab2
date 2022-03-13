@@ -1,0 +1,74 @@
+* {
+    margin: 0 auto;
+}
+
+.header h1 {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 95.3%;
+    background: rgb(250, 255, 209);
+    background: linear-gradient(45deg, rgb(163, 255, 208, 1) 0%, rgb(250, 255, 209, 1) 35%, rgb(98, 229, 255) 100%);
+}
+
+.left {
+    width: 17%;
+    border: 2px solid black;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    background: rgb(250, 255, 209);
+    background: linear-gradient(45deg, rgb(163, 255, 208, 1) 0%, rgb(250, 255, 209, 1) 35%, rgb(98, 229, 255) 100%);
+}
+
+.left ul{
+    list-style-type: none;
+    justify-content: space-between;
+    padding-top: 20%;
+}
+
+.middle {
+    width: 79.6%;
+    background: rgb(250, 255, 209);
+    background: linear-gradient(45deg, rgb(163, 255, 208, 1) 0%, rgb(250, 255, 209, 1) 35%, rgb(98, 229, 255) 100%);
+    float: left;
+    height: 500px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.middle div h1 {
+    text-align: center;
+
+}
+
+h1 {
+    padding: 10px;
+}
+
+.middle img {
+    margin:20px;
+    float: left;
+}
+
+.middle p{
+   margin-left: 10px; 
+   margin-right: 10px; 
+   font-size: large;
+   padding: 10px;
+   margin: 15px;
+}
+
+.middle input, textarea, button {
+    margin-left: 20px;
+}
+
+.form p {
+    margin-bottom: 0px;
+}
+
+.ul {
+    font-size: larger;
+    font-weight: 200;
+}
